@@ -7,4 +7,4 @@ After that, handle the client-side <a href="https://documentation.devexpress.com
 To show the popup, it is possible to handle the <a href="https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.Scripts.ASPxClientDashboard.DashboardTitleToolbarUpdated">DashboardTitleToolbarUpdated</a> event and add a special button there.
 
 This example also shows an approach to detect a mobile layout and add a special button only on mobile devices.
-</p>
+</p> 
