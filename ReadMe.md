@@ -1,5 +1,10 @@
 # Web Dashboard - How to show the popup with available dashboards and load them
 
+*Files to look at*:
+
+* [Default.aspx](./CS/WebApp/Default.aspx)
+* [Default.aspx.cs](./CS/WebApp/Default.aspx.cs)
+
 <p>
 This example illustrates how to use the ASPxPopup control with ASPxListBox and show available dashboards in the list box.
 First of all, place ASPxListBox into the popup. Then, bind the list box on loading the page using the <a href="https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.IDashboardStorage.GetAvailableDashboardsInfo">GetAvailableDashboardsInfo</a> method.
