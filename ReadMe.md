@@ -2,8 +2,9 @@
 
 *Files to look at*:
 
-* [Default.aspx](./CS/WebApp/Default.aspx)
-* [Default.aspx.cs](./CS/WebApp/Default.aspx.cs)
+* CS markup - [Default.aspx](./CS/WebApp/Default.aspx) CS code - [Default.aspx.cs](./CS/WebApp/Default.aspx.cs)
+* VB markup - [Default.aspx](./VB/WebApp/Default.aspx) VB code - [Default.aspx.vb](./VB/WebApp/Default.aspx.vb)
+
 
 <p>
 This example illustrates how to use the ASPxPopup control with ASPxListBox and show available dashboards in the list box.
