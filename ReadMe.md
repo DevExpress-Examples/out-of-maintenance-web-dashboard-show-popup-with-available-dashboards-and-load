@@ -1,4 +1,7 @@
 # Web Dashboard - How to show the popup with available dashboards and load them
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/145132759/)**
+<!-- run online end -->
 
 *Files to look at*:
 
