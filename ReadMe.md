@@ -21,5 +21,6 @@ This example also shows how to detect a mobile layout and add a button only on m
 
 ## Documentation
 
+- [Dashboard Panel](https://docs.devexpress.com/Dashboard/119771/web-dashboard/ui-elements-and-customization/ui-elements/dashboard-panel)
 - [Dashboard Title](https://docs.devexpress.com/Dashboard/117383/web-dashboard/ui-elements-and-customization/ui-elements/dashboard-title)
 - [Mobile Layout](https://docs.devexpress.com/Dashboard/119662/web-dashboard/ui-elements-and-customization/mobile-layout)
