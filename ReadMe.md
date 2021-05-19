@@ -1,19 +1,25 @@
-# Web Dashboard - How to show the popup with available dashboards and load them
+*Files to look at*:
+
+* [Default.aspx](./CS/WebApp/Default.aspx) (VB: [Default.aspx](./VB/WebApp/Default.aspx))
+* [Default.aspx.cs](./CS/WebApp/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebApp/Default.aspx.vb))
+
+# ASP.NET Web Forms Dashboard - How to show the popup with available dashboards and load them
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/145132759/)**
 <!-- run online end -->
 
-*Files to look at*:
+This example illustrates how to use the `ASPxPopup` control with `ASPxListBox` and show available dashboards in the list box.
 
-* CS markup - [Default.aspx](./CS/WebApp/Default.aspx) CS code - [Default.aspx.cs](./CS/WebApp/Default.aspx.cs)
-* VB markup - [Default.aspx](./VB/WebApp/Default.aspx) VB code - [Default.aspx.vb](./VB/WebApp/Default.aspx.vb)
+## Example Structure
 
+1. Place `ASPxListBox` into the popup. 
+1. Bind the list box on loading the page. For this, use the [IDashboardStorage.GetAvailableDashboardsInfo](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.IDashboardStorage.GetAvailableDashboardsInfo) method.
+1. Handle the client-side [](https://docs.devexpress.com/AspNet/js-ASPxClientListBox.SelectedIndexChanged) event and use the `loadDashboard` method to load the selected dashboard.
+1. Handle the [DashboardTitleToolbarUpdated](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.Scripts.ASPxClientDashboard.DashboardTitleToolbarUpdated) event and add a button to show the popup when a user clicks the button.
 
-<p>
-This example illustrates how to use the ASPxPopup control with ASPxListBox and show available dashboards in the list box.
-First of all, place ASPxListBox into the popup. Then, bind the list box on loading the page using the <a href="https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.IDashboardStorage.GetAvailableDashboardsInfo">GetAvailableDashboardsInfo</a> method.
-After that, handle the client-side <a href="https://documentation.devexpress.com/AspNet/DevExpress.Web.Scripts.ASPxClientListBox.SelectedIndexChanged.event">ASPxListBox's SelectedIndexChanged</a> event and use the loadDashboard method to load the selected dashboard.
-To show the popup, it is possible to handle the <a href="https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.Scripts.ASPxClientDashboard.DashboardTitleToolbarUpdated">DashboardTitleToolbarUpdated</a> event and add a special button there.
+This example also shows how to detect a mobile layout and add a button only on mobile devices.
 
-This example also shows an approach to detect a mobile layout and add a special button only on mobile devices.
-</p> 
+## Documentation
+
+- [Dashboard Title](https://docs.devexpress.com/Dashboard/117383/web-dashboard/ui-elements-and-customization/ui-elements/dashboard-title)
+- [Mobile Layout](https://docs.devexpress.com/Dashboard/119662/web-dashboard/ui-elements-and-customization/mobile-layout)
