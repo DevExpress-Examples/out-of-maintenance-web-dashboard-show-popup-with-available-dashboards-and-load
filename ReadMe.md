@@ -14,7 +14,7 @@ This example illustrates how to use the `ASPxPopup` control with `ASPxListBox` a
 
 1. Place `ASPxListBox` into the popup. 
 1. Bind the list box on loading the page. For this, use the [IDashboardStorage.GetAvailableDashboardsInfo](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.IDashboardStorage.GetAvailableDashboardsInfo) method.
-1. Handle the client-side [](https://docs.devexpress.com/AspNet/js-ASPxClientListBox.SelectedIndexChanged) event and use the `loadDashboard` method to load the selected dashboard.
+1. Handle the client-side [ASPxClientListBox.SelectedIndexChanged](https://docs.devexpress.com/AspNet/js-ASPxClientListBox.SelectedIndexChanged) event and use the `loadDashboard` method to load the selected dashboard.
 1. Handle the [DashboardTitleToolbarUpdated](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.Scripts.ASPxClientDashboard.DashboardTitleToolbarUpdated) event and add a button to show the popup when a user clicks the button.
 
 This example also shows how to detect a mobile layout and add a button only on mobile devices.
