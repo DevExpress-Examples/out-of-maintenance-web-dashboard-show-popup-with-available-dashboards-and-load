@@ -3,7 +3,7 @@
 * [Default.aspx](./CS/WebApp/Default.aspx) (VB: [Default.aspx](./VB/WebApp/Default.aspx))
 * [Default.aspx.cs](./CS/WebApp/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebApp/Default.aspx.vb))
 
-# ASP.NET Web Forms Dashboard - How to show the popup with available dashboards and load them
+# Dashboard for Web Forms - How to show the popup with available dashboards and load them
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/145132759/)**
 <!-- run online end -->
