@@ -13,7 +13,7 @@
 **[[Run Online]](https://codecentral.devexpress.com/145132759/)**
 <!-- run online end -->
 
-This example illustrates how to use the `ASPxPopupControl` with `ASPxListBox` and show available dashboards in the list box.
+This example illustrates how to use the [ASPxPopupControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl) with [ASPxListBox](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxListBox) and show available dashboards in the list box.
 
 ## Example Structure
 
