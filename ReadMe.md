@@ -13,11 +13,11 @@
 **[[Run Online]](https://codecentral.devexpress.com/145132759/)**
 <!-- run online end -->
 
-This example illustrates how to use the `ASPxPopup` control with `ASPxListBox` and show available dashboards in the list box.
+This example illustrates how to use the `ASPxPopupControl` with `ASPxListBox` and show available dashboards in the list box.
 
 ## Example Structure
 
-1. Place `ASPxListBox` into the popup. 
+1. Place `ASPxListBox` into the `ASPxPopupControl`. 
 1. Bind the list box on loading the page. For this, use the [IDashboardStorage.GetAvailableDashboardsInfo](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.IDashboardStorage.GetAvailableDashboardsInfo) method.
 1. Handle the client-side [ASPxClientListBox.SelectedIndexChanged](https://docs.devexpress.com/AspNet/js-ASPxClientListBox.SelectedIndexChanged) event and use the [OpenDashboardExtension.loadDashboard](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.Designer.OpenDashboardExtension#js_devexpress_dashboard_designer_opendashboardextension_loaddashboard_dashboardid_) method to load the selected dashboard.
 1. Handle the [DashboardTitleToolbarUpdated](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.Scripts.ASPxClientDashboard.DashboardTitleToolbarUpdated) event and add a button to show the popup when a user clicks the button.
